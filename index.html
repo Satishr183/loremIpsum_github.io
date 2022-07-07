@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="1.jpg" alt="" />
+      <div class="box">
+        <h1>Lorem Ipsum</h1>
+        <h3>
+          "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+          consectetur, adipisci velit..."
+        </h3>
+        <p>
+          "There is no one who loves pain itself, who seeks after it and wants
+          to have it, simply because it is pain..."
+        </p>
+        <div class="main__form">
+          <form action="" id="form">
+            <select name="" id="type">
+              <option value="w">words</option>
+              <option value="p">para</option>
+              <option value="s">sentence</option></select
+            >&nbsp;&nbsp; <input type="number" placeholder="0" id="num" /><br />
+            <button
+              class="btn1"
+              type="button"
+              id="generate"
+              onclick="generateFunction()"
+            >
+              Generate
+            </button>
+            <button class="btn2" type="button" id="generate1" onclick="cls()">
+              clear
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="text__box" id="display">
+        
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  </body>
+  <script src="main.js"></script>
+</html>
