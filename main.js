@@ -54,7 +54,7 @@ function generatePara(n){
 
 //Generate words
 function generateWords(n){
-    var words="<p>";
+    var words=" <p> ";
     for(var i=0;i<=(n-1);i++){
         var ranwords=Math.floor(Math.random()*dummyText.length);
         var splitsent=dummyText[ranwords].split(" ");
@@ -62,7 +62,7 @@ function generateWords(n){
         words=words+splitsent[b]+" ";
     }
     words=" "+words+"</p><br>";
-    $("#display").append(words);
+    $("#display").append(" "words);
 }
 
 //generate sentence
